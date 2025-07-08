@@ -5,3 +5,15 @@ body {
     scroll-behavior: smooth;
     font-size: 15px;
 }
+
+nav {
+    background-color: #0f172a;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+section {
+    transition: background-color 0.3s ease;
+}
