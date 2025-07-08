@@ -10,9 +10,19 @@ nav {
     background-color: #0f172a;
 }
 
-.nav-item a {
+.navbar span {
     color: #fff;
 }
+
+.navbar-nav .nav-item a:hover {
+    color: #38bdf8;
+}
+
+.nav-item a {
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
 
 section {
     transition: background-color 0.3s ease;
@@ -182,6 +192,7 @@ section {
     color: #cbd5e1;
     text-decoration: none;
     transition: color 0.3s;
+    letter-spacing: 1.2px;
 }
 
 .footer-center .footer-nav a:hover {
