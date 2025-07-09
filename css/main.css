@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+/* Body */
 body {
     font-family: "JetBrains Mono", monospace;
     scroll-behavior: smooth;
     font-size: 15px;
 }
 
+/* End of Body */
+
+/* Navigation */
 nav {
     background-color: #0f172a;
 }
@@ -23,11 +27,13 @@ nav {
     letter-spacing: 1.2px;
 }
 
-
 section {
     transition: background-color 0.3s ease;
 }
 
+/* End of navigation */
+
+/* Projects */
 .project-card img {
     object-fit: cover;
     height: 250px;
@@ -36,6 +42,7 @@ section {
 .hero {
     background: url('../img/home.jpg') no-repeat center center;
     background-size: cover;
+    background-position: top;
     height: 100vh;
     position: relative;
     color: white;
@@ -59,6 +66,9 @@ section {
     text-align: center;
 }
 
+/* End of Projects */
+
+/* Logo */
 .logo-icon {
     font-family: 'Courier New', monospace;
     font-weight: 900;
@@ -71,11 +81,17 @@ section {
     height: 50px;
 }
 
+/* End pf Logo */
+
+/* About */
 .about-icon {
     font-size: 2rem;
     color: #0d6efd;
 }
 
+/* End of About */
+
+/* Blog */
 .blog-section {
     padding: 60px 20px;
     background-color: #f9f9f9;
@@ -133,6 +149,9 @@ section {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
+/* End of Blog */
+
+/* Contact */
 #contact {
     background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
     padding: 100px 20px;
@@ -166,6 +185,9 @@ section {
     margin-bottom: 30px;
 }
 
+/* End of Contact */
+
+/* Footer */
 .footer {
     background-color: #0f172a;
     color: #fff;
@@ -210,6 +232,9 @@ section {
     color: #38bdf8;
 }
 
+/* End of Contact */
+
+/* Responsive */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -224,3 +249,5 @@ section {
         margin: 0 10px;
     }
 }
+
+/* End of Responsive */
