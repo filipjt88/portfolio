@@ -3,7 +3,7 @@ function filip_enqueue_files() {
     // glavni stil WP-a
     wp_enqueue_style('filip-style', get_stylesheet_uri());
 
-    // tvoj custom stil
+    // Custom stil
     wp_enqueue_style('custom-style', get_template_directory_uri() . '/assets/css/style.css');
 
     // JS
