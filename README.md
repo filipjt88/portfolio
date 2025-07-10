@@ -15,5 +15,3 @@ Ovaj projekat je moj **lični portfolio sajt**, kreiran kako bih predstavio svoj
 
 ---
 
-## 📂 Struktura projekta
-
